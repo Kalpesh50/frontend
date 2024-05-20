@@ -1,0 +1,147 @@
+/* dashboard.css */
+
+.bucket {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav{
+  max-width: 85%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bucket h1 {
+  text-align: center; /*Add this line to center the h1 element  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_data {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 35px 10px;
+  box-shadow: 0 0 20px -10px #2d3748;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-thumbnail {
+  display: flex;
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 20px;
+  /* border-radius: 50%; Add this line to make the image circular */
+  border: 3px solid #2d3748; /* Add this line to give a border to the image */
+}
+
+
+.profile-info {
+  flex-grow: 1;
+  
+}
+
+.profile-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.profile-info p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+/* ++++++++++++++++++++++++++++++++++++++++ tables code +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.bucket1 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-more {
+  margin-top: 20px;
+  display: table;
+  width: 30%;
+  border-collapse: separate;
+  /* border-spacing: 10px; */
+  margin-right: 100px;
+  background-color: #f9f9f9;
+  color: #333;
+  border-top: 1px solid #85C1E9;
+  border-bottom: 1px solid #85C1E9;
+}
+
+.profile-more1 {
+  margin-top: 20px;
+  display: table;
+  width: 50%;
+  border-collapse: seperate;
+  /* margin-right: 10px; */
+  margin-left: -12.7%;
+  background-color: #f9f9f9;
+  color: #333;
+  border-top: 1px solid #85C1E9;
+  border-bottom: 1px solid #85C1E9;
+}
+
+.profile-more p {
+  display: block;
+  /* padding: 10px; */
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  border-top: 1px solid #D2B4DE;
+  border-bottom: 1px solid #D2B4DE;
+  border-left: 1px solid #D2B4DE;
+}
+
+.profile-more1 p {
+  display: block;
+  /* padding: 10px; */
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  border-top: 1px solid #D2B4DE;
+  border-bottom: 1px solid #D2B4DE;
+  border-right: 1px solid #D2B4DE;
+}
+
+.profile-more h2 {
+  font-weight: bold;
+}
+
+.profile-more p:nth-child(odd), .profile-more1 p:nth-child(odd) {
+  background-color: #F4ECF7;
+}
+
+.profile-more p:nth-child(even), .profile-more1 p:nth-child(even) {
+  background-color: #EAF2F8;
+}
+
+.profile-more p:last-child, .profile-more1 p:last-child {
+  border-bottom: none;
+}
+

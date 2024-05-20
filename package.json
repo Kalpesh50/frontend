@@ -1,0 +1,64 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "@emotion/react": "",
+    "@emotion/styled": "",
+    "@material-ui/core": "",
+    "@mui/icons-material": "",
+    "@mui/material": "",
+    "@tensorflow-models/coco-ssd": "",
+    "@tensorflow-models/posenet": "",
+    "@tensorflow/tfjs": "",
+    "@tensorflow/tfjs-backend-wasm": "^4.19.0",
+    "@testing-library/jest-dom": "",
+    "@testing-library/react": "",
+    "@testing-library/user-event": "",
+    "@vladmandic/face-api": "",
+    "axios": "",
+    "bootstrap": "",
+    "cloudinary": "^2.2.0",
+    "dotenv": "",
+    "face-api.js": "^0.22.2",
+    "multer": "",
+    "react": "",
+    "react-bootstrap": "",
+    "react-dom": "",
+    "react-full-screen": "",
+    "react-mic": "",
+    "react-router-dom": "",
+    "react-scripts": "",
+    "react-toastify": "",
+    "react-webcam": "",
+    "source-map-loader": "",
+    "sweetalert": "",
+    "sweetalert2": "",
+    "web-vitals": ""
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
